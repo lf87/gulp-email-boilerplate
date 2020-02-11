@@ -1,0 +1,9 @@
+.container.email-template-2 {
+	background-color: green;
+}
+
+@include mob {
+	.container.email-template-2 {
+		background-color: red !important;
+	}
+}

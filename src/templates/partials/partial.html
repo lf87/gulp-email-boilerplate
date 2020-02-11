@@ -1,0 +1,5 @@
+{# This is an example of how to loop through data #}
+{% set var = email.copyParent.copy %}
+{% for var, item in email.copyParent %}
+    <span> {{ item | safe}}</span>
+{% endfor %}

@@ -1,0 +1,39 @@
+{
+  "name": "gulp-barebones-boilerplate",
+  "version": "1.0.0",
+  "description": "A stripped down version of the Barebones HTML boilerplate that has been tailored to work for email builds.",
+  "main": "dist/index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.home-trial.com/infrastructure/gulp-email-boilerplate/"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "bs-html-injector": "^3.0.3",
+    "del": "^5.1.0",
+    "fs": "0.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-changed": "^4.0.2",
+    "gulp-data": "^1.3.1",
+    "gulp-extract-media-queries": "^1.1.0",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-index": "^0.2.0",
+    "gulp-inline-css": "^3.5.0",
+    "gulp-mailgun": "0.0.7",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-pngquant": "^1.0.12",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-scss-lint": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-style-inject": "^0.1.2",
+    "run-sequence": "^2.2.1",
+    "vinyl-ftp": "^0.6.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}

@@ -1,0 +1,40 @@
+// Email client specific resets - These styles are added inline at in the head of the document
+// Can also add hover effects in here for buttons CTA's etc.
+@import 'util/var';
+.ReadMsgBody {
+    width: 100%;
+}
+
+.ExternalClass {
+    width: 100%;
+}
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+    line-height: 100%;
+}
+
+table,
+td {
+    mso-table-lspace: 0;
+    mso-table-rspace: 0;
+}
+
+img {
+    -ms-interpolation-mode: bicubic;
+}
+
+body,
+table,
+td,
+p,
+a,
+li,
+blockquote {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}

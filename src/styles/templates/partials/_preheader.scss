@@ -1,0 +1,15 @@
+.preheader,
+.preheader td {
+    color: $white;
+    font-size: 0;
+    line-height: 0;
+    display: none !important;
+    height: 0;
+    max-height: 0;
+    max-width: 0;
+    opacity: 0;
+    overflow: hidden;
+    mso-hide: all;
+    visibility: hidden;
+    width: 0;
+}

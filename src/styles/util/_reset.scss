@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#body-table {
+    width: 100%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.container {
+    width: 640px;
+    background-color: $white;
+    @include mob {
+        max-width: 640px !important;
+        width: 100% !important;
+    }
+    >tbody>tr>td {
+        background-color: $white;
+        height: 100%;
+    }
+}
+
+img {
+    display: block;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    img {
+        border: 0;
+    }
+}

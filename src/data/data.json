@@ -1,0 +1,23 @@
+{
+    "default": {
+        "imageExample": {
+            "image": "img/image-ref.png",
+            "imageAlt": "img alt",
+            "imageUrl": "#"
+        },
+        "copy": "<br><br> Some copy with <strong>HTML</strong> inside it<br><br>",
+        "copyParent": {
+            "copy1": "<strong>First</strong> iteration of copy<br> ",
+            "copy2": "<strong>Second</strong> iteration of copy<br> ",
+            "copy3": "<strong>Third</strong> iteration of copy<br> "
+        }
+    },
+    "alternative": {
+        "imageExample": {
+            "image": "img/image-ref.png",
+            "imageAlt": "img alt",
+            "imageUrl": "#"
+        },
+        "copy": "<br>This is some different copy with <strong>HTML</strong> inside it"
+    }
+}
