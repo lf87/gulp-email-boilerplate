@@ -1,5 +1,7 @@
 # Gulp Email Boilerplate
-This is a stripped down version of the [Barebones HTML boilerplate](https://gitlab.home-trial.com/infrastructure/gulp-barebones-boilerplate) that has  been tailored to work for email builds. With this decoupled workflow, you can use externally referenced SASS files and compile the resulting CSS inline.
+Boilerplate for email builds. With this decoupled workflow you can use externally referenced SASS files and compile the resulting CSS inline.
+
+THIS ONLY WORKS WITH NODE V11. SEE THIS - https://stackoverflow.com/questions/55921442/how-to-fix-referenceerror-primordials-is-not-defined-in-node
 
 ## Primary Tasks
 1. `$ gulp` - This is the default task. It will process all the files inside the 'src' folder and then launch browserSync in your default browser.
