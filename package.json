@@ -34,6 +34,6 @@
     "vinyl-ftp": "^0.6.1"
   },
   "dependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^4.0.2"
   }
 }
