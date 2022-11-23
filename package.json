@@ -8,7 +8,7 @@
     "url": "https://gitlab.home-trial.com/infrastructure/gulp-email-boilerplate/"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "bs-html-injector": "^3.0.3",
     "del": "^5.1.0",
     "fs": "0.0.2",
